@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujata's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+            
+            <nav>
+
+                <ul id="sidemenu"><b>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact us">Contact Us</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><b>Full Stack Developer</b></p>
+                <h2>Hi, I'm <br><span> Sujata Dharpure </span>
+                    <br>From Maharashtra India</h2>
+            </div>
+        </div>
+    </div>
+    <!------------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/sanu.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Sujata Narendraji Dharpure and I am Full Stack Developer.<br> With experience in programming language such as HTML,CSS, JS, Python, Java,ASP.NET.</p>
+                    <b>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links " onclick="opentab('Education')">Education</p>
+                            <p class="tab-links " onclick="opentab('Project')">Project</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul><b>
+                                <li><span>* Problem Solving<br></span></li>
+                                <li><span>* HTML/CSS/JS<br></span></li>
+                                <li><span>* Python<br></span></li>
+                                <li><span>* JAVA<br></span></li>
+                                <li><span>* SQL<br></span></li>
+                                <li><span>* ASP.NET<br></span></li>
+                                <li><span>*C/C++<br></span></li>
+                            </b>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="Education">
+                            <ul><b>
+                                <li><span>MCA (Full Stack Development)</span><br>Pursuing</li>
+                                <li><span>BCA</span><br>(2022)</li>
+                                <li><span>HSC</span><br>(2019)</li>
+                                <li><span>HSC</span><br>(2019)</li>
+                                <li><span>SSC</span><br>(2016)</li>
+                                <br>
+                            </b>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="Project">
+                            <ul>
+                                <li><span><b>ECIC (2022)</b></span><br><br>This is an e-learning platform project. 
+                                    <br> I have used the C# language in this project to connect to a SQL database in an ASP.NET. 
+                                    <br> This project runs in Visual Studio Code.</li>
+                                    <br>
+                                    <br>
+                                    <li><span><b>Sujata's Portfolio (2023)</b></span><br><br>This is a portfolio website.
+                                    <br> I have used the HTML,CSS,JS languages in this project.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!------------services------------->
+
+</div>
+</div>
+
+<div id="services"> 
+<div class="container">
+    <h1 class="sub-title">My services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Full Stack Developer</h2>
+            <p>I am a enthuziastice Full Stack Developer is responsible
+                for developing applications that run 
+                on both the client-side 
+                (front-end) and server-side (back-end).</p>
+            <a href="images/pdf.pdf">Learn more</a>
+        </div>
+        <div>
+            <i class="fas fa-laptop-code"></i>
+            <h2>Software Developer</h2>
+            <p>I am a enthuziastice software developer.<br> In sorftware development Researching, Designing , Implementing, and Managing software programs</p>
+            <a href="images/pdf.pdf">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web Developer</h2>
+            <p>I am a enthuziastice web developer.<br>  A web developer makes and maintain websites. </p>
+            <a href="images/pdf.pdf">Learn more</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!---portfolio-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Work1.png" alt="work1"/>
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>we can use that app for explore the world it available on playstore.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpg" alt="work2">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>We can easily listem music any spot using this apk.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpeg"  alt="work3">
+                <div class="layer">
+                    <h3>E-Learning App</h3>
+                    <p>We can easily learn computer courses like c, c++, java, python, etc.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="images/pdf.pdf" class="btn">See More</a>
+    </div>
+</div>
+
+<!-------------contact-->
+<div id="contact us">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href="mailto:sujatadharpure2017@gmail.com"><i class="fa-solid fa-paper-plane"></i></a>sujatadharpure2017@gmail.com</p>
+                <p><a href="Mob. No.9503413915"><i class="fa-solid fa-mobile"></i></a>9503413915</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sujata-dharpure-4ba02b229"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/DharpureS?t=DyE4BfjxoZ5Yl6_U1el3iQ&s=08"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/SujataND/SujataDharpure"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/sujata_dharpure?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Sujata's Resume.pdf" download class="btn btn2">Download Resume </a>
+                <!--------cv upload here-->
+            </div>
+            <div class="contact-right">
+            
+
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p style="color:(rgba(0, 0, 0, 0.6), #ff004f);">Thank You...❤️</p>
+            </div>
+
+            <script>
+
+                var tablinks=document.getElementsByClassName("tab-links");
+                var tabcontents=document.getElementsByClassName("tab-contents");
+                
+                function opentab(tabname){
+                    for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                    }
+                    for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+        
+            </script>
+            <script>
+                var sidemeu= document.getElementById("sidemenu");
+                var tabcontents= document.getElementsByClassName("tab-contents")
+                function openmenu(tabname){
+                    sidemenu.style.right="0";
+                }
+                function closemenu(tabname){
+                    sidemenu.style.right="-200";
+                }
+            </script>
+   
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycby7de0L8YdZWgY40r5XQgc-qcqYEP4gYoJ3WExTkwnhVgU0Pcc7SPCr-HDBDEwYXtrTCw/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById("msg")
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        msg.innerHTML = "Message Sent Successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        },5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+
+</body>
+</html> 
